@@ -8,52 +8,8 @@
     <title>SMKN 4 Tasikmalaya</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary-primary  bg-primary sticky-top navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="galeri/Logo.png" alt="" width="50" height="50"></a>
-            <span class="text-white">SMKN 4 TASIKMALAYA</span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Beranda</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Profil
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="identitas.html">Identitas Sekolah </a></li>
-                            <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="Visi & Misi.html">Visi & Misi</a></li>
-                            <li><a class="dropdown-item" href="Keahlian.html">Konsentrasi Keahlian</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Ekstrakurikuler.html">Ekstrakurikuler</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Galeri.html">Galeri</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Berita.html">Berita</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+ <?php include 'navbar.php'; ?>
 
-
-
-    <!-- TUTUP NAV -->
 <!-- SECTION ESKUL -->
      <section>
         <div class="container px-5 mt-3">
@@ -190,67 +146,6 @@
         </div>
      </section>
     <!-- TUTUP SECTION ESKUL -->
-        <!-- SECTION FOOTER -->
-        <div class="row bg-primary ">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="card border-0">
-                            <div class="card-body bg-primary text-white">
-                                <h2>Alamat</h2>
-                                <hr>
-                                <div>
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.2131636317513!2d108.25189907357232!3d-7.329939972086937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755671496167!5m2!1sid!2sid"
-                                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card border-0 ">
-                            <div class="card-body bg-primary text-white">
-                                <h2>Kontak</h2>
-                                <hr>
-                                <p class="bi bi-telephone m-1"> 085770605539</p>
-                                <p class="bi bi-envelope"> SMKN4@gmail.com</p>
-                                <h2>Media Sosial</h2>
-                                <hr>
-                                <div class="d-flex gap-3">
-                                    <i class="bi bi-facebook"></i>
-                                    <i class="bi bi-instagram"></i>
-                                    <i class="bi bi-tiktok"></i>
-                                    <i class="bi bi-youtube"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card border-0">
-                            <div class="card-body bg-primary text-white">
-                                <h2>Link lainnya</h2>
-                                <hr>
-                                <a class="text-decoration-none text-white"
-                                    href="https://kemendikdasmen.go.id/">Kemendikbud</a>
-                                <br>
-                                <a class="text-decoration-none text-white" href="#">Dapodiknasmen</a>
-                                <br>
-                                <a class="text-decoration-none text-white" href="#">PSMK</a>
-                                <br>
-                                <a class="text-decoration-none text-white" href="#">Disdik Jabar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center text-white">
-                        <hr>
-                        <small>© 2025 Dibuat oleh Nopi</small>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- TUTUP SECTION FOOTER -->
-    </div>
+        <?php include 'footer.php'; ?>  
 </body>
 </html>
