@@ -20,7 +20,7 @@
                     <div class="row ">
                         <div class="col-lg-12 d-flex justify-content-center ">
                             <div class="card border-0 mb-3">
-                                <img src="galeri/logo_smk.png" alt="" width="150" height="150">
+                                <img src="galeri/Logo.png" alt="" width="150" height="150">
                             </div>
                         </div>
                     </div>

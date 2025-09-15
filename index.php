@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>SMKN 4 Tasikmalaya</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  
 
 <body>
   <?php include 'navbar.php'; ?>
@@ -16,13 +17,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="galeri/gerbanngg.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
           <img src="galeri/smk4.jpeg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
           <img src="galeri/skm4.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -42,7 +43,7 @@
     <div class="row text-center g-3">
 
       <!-- Guru -->
-      <div class="col-md-3">
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
         <div class="card bg-primary text-white h-100">
           <div class="card-body">
             <i class="bi bi-person-video3 display-4"></i>
@@ -53,7 +54,7 @@
       </div>
 
       <!-- Siswa -->
-      <div class="col-md-3">
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
         <div class="card bg-primary text-white h-100">
           <div class="card-body">
             <i class="bi bi-people-fill display-4"></i>
@@ -64,7 +65,7 @@
       </div>
 
       <!-- Staf TU -->
-      <div class="col-md-3">
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
         <div class="card bg-primary text-white h-100">
           <div class="card-body">
             <i class="bi bi-person-badge-fill display-4"></i>
@@ -75,7 +76,7 @@
       </div>
 
       <!-- Ekstrakurikuler -->
-      <div class="col-md-3">
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
         <div class="card bg-primary text-white h-100">
           <div class="card-body">
             <i class="bi bi-lightbulb-fill display-4"></i>
