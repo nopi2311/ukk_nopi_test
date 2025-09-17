@@ -40,7 +40,7 @@
                     <div class="card-body">
                         <p class="card-text-date mb-1">Juni 26, 2025</p>
                         <h5 class="card-title">Talkshow with U.S. Interns – English Club SMKN 4 Tasikmalaya 2025</h5>
-                        <a href="https://s.id/ENGLISHCLUB-AMERICANSTUDENT2025" class="btn-baca">Baca Selengkapnya →</a>
+                        <a href="" class="btn-baca">Baca Selengkapnya →</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     <div class="card-body">
                         <p class="card-text-date mb-1">Agustus 15, 2025</p>
                         <h5 class="card-title">Jalan sehat HUT RI-80</h5>
-                        <a href="https://s.id/JALAN-SEHAT-HUTRI-80" class="btn-baca">Baca Selengkapnya →</a>
+                        <a href="" class="btn-baca">Baca Selengkapnya →</a>
                     </div>
                 </div>
             </div>

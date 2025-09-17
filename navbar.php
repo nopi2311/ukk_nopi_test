@@ -1,4 +1,4 @@
- <nav class="navbar navbar-expand-lg bg-body-tertiary-primary  bg-primary sticky-top navbar-dark">
+ <nav class="navbar navbar-expand-lg bg-body-tertiary-dark  bg-dark sticky-top navbar-dark">
      <div class="container-fluid">
          <a class="navbar-brand" href="#"><img src="galeri/Logo.png" alt="" width="50" height="50"></a>
          <span class="text-white">SMKN 4 TASIKMALAYA</span>
@@ -35,6 +35,9 @@
                  </li>
                  <li class="nav-item">
                      <a class="nav-link" href="Berita.php">Berita</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="data guru.php">Data guru</a>
                  </li>
              </ul>
          </div>

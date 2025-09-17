@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>SMKN 4 Tasikmalaya</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  
+
 
 <body>
   <?php include 'navbar.php'; ?>
@@ -148,7 +148,7 @@
             <p class="card-text-date mb-1">Senin, 07 Oktober 2024</p>
             <h5 class="card-title">Kapolsek Cibeureum AKP Nurrozi memberikan penyuluhan kepada siswa SMKN 4 Tasikmalaya
               terkait larangan knalpot brong dan aksi geng motor.</h5>
-            <a href="Berita.html" class="btn-baca">Baca Selengkapnya →</a>
+            <a href="Berita.php" class="btn-baca">Baca Selengkapnya →</a>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@
           <div class="card-body">
             <p class="card-text-date mb-1">Juni 26, 2025</p>
             <h5 class="card-title">Talkshow with U.S. Interns – English Club SMKN 4 Tasikmalaya 2025</h5>
-            <a href="Berita.html" class="btn-baca">Baca Selengkapnya →</a>
+            <a href="Berita.php" class="btn-baca">Baca Selengkapnya →</a>
           </div>
         </div>
       </div>
