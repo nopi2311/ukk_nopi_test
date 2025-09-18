@@ -14,6 +14,26 @@
     <?php include 'navbar.php'; ?>
 
     <!-- SECTION ESKUL -->
+    <?php
+    // Array data ekstrakurikuler
+    $eskulList = [
+        ['id' => 'paskibra', 'nama' => 'PASKIBRA', 'gambar' => 'galeri/paskibra.png'],
+        ['id' => 'pramuka', 'nama' => 'PRAMUKA', 'gambar' => 'galeri/pramuka.png'],
+        ['id' => 'pmr', 'nama' => 'PMR', 'gambar' => 'galeri/pmr.png'],
+        ['id' => 'plh', 'nama' => 'PLH', 'gambar' => 'galeri/plh.png'],
+        ['id' => 'perisai-diri', 'nama' => 'PERISAI DIRI', 'gambar' => 'galeri/pd.jpg'],
+        ['id' => 'pks', 'nama' => 'PKS', 'gambar' => 'galeri/pks.png'],
+        ['id' => 'itclub', 'nama' => 'IT CLUB', 'gambar' => 'galeri/itclub.png'],
+        ['id' => 'english-club', 'nama' => 'ENGLISH CLUB', 'gambar' => 'galeri/englishclub.png'],
+        ['id' => 'cinematography', 'nama' => 'CINEMATOGRAPHY', 'gambar' => 'galeri/cinema.png'],
+        ['id' => 'laskar-pustaka', 'nama' => 'LASKAR PUSTAKA', 'gambar' => 'galeri/laskar.png'],
+        ['id' => 'irma', 'nama' => 'IRMA', 'gambar' => 'galeri/irma.png'],
+        ['id' => 'bulu-tangkis', 'nama' => 'BULU TANGKIS', 'gambar' => 'galeri/bulutangkis.png'],
+        ['id' => 'futsal', 'nama' => 'FUTSAL', 'gambar' => 'galeri/futsal.png'],
+        ['id' => 'basket', 'nama' => 'BASKET', 'gambar' => 'galeri/basket.png'],
+        ['id' => 'volly', 'nama' => 'VOLLY', 'gambar' => 'galeri/volly.jpeg'],
+    ];
+    ?>
 
     <section>
         <div class="container px-5 mt-3">
@@ -23,7 +43,7 @@
                         <h3 class="mb-0 text-center">Ekstrakurikuler</h3>
                         <h3 class="text-primary text-center">Siswa</h3>
 
-                        <div class="  mt-4 text-center">
+                        <div class="mt-4 mb-4 text-center">
                             <input type="text" id="searchEskul" class="form-control w-50 d-inline-block" placeholder="Cari ekstrakurikuler..." />
                         </div>
 
@@ -46,146 +66,19 @@
                             });
                         </script>
 
-
-
-
                         <div class="row">
-                            <div class="col-lg-4" id="eskul-paskibra">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/paskibra.png" alt="Paskibra" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>PASKIBRA</h4>
+                            <?php foreach ($eskulList as $eskul): ?>
+                                <div class="col-lg-4 mb-4" id="eskul-<?= htmlspecialchars($eskul['id']); ?>">
+                                    <div class="card shadow rounded p-4 d-flex align-items-center text-center">
+                                        <img src="<?= htmlspecialchars($eskul['gambar']); ?>" alt="<?= htmlspecialchars($eskul['nama']); ?>" width="150" height="150" />
+                                        <div class="card-body border-0">
+                                            <h4><?= htmlspecialchars($eskul['nama']); ?></h4>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-pramuka">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/pramuka.png" alt="Pramuka" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>PRAMUKA</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-pmr">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/pmr.png" alt="PMR" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>PMR</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-plh">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/plh.png" alt="PLH" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>PLH</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-perisai-diri">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/pd.jpg" alt="Perisai Diri" width="150" height="150" />
-                                    <div class="card-body text-center border-0">
-                                        <h4>PERISAI DIRI</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-pks">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/pks.png" alt="PKS" width="150" height="150" />
-                                    <div class="card-body text-center border-0">
-                                        <h4>PKS</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-itclub">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/itclub.png" alt="IT Club" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>IT CLUB</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-english-club">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/englishclub.png" alt="English Club" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>ENGLISH CLUB</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-cinematography">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/cinema.png" alt="Cinematography" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>CINEMATOGRAPHY</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-laskar-pustaka">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/laskar.png" alt="Laskar Pustaka" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>LASKAR PUSTAKA</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-irma">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/irma.png" alt="Irma" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>IRMA</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-bulu-tangkis">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/bulutangkis.png" alt="Bulu Tangkis" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>BULU TANGKIS</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-futsal">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/futsal.png" alt="Futsal" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>FUTSAL</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-basket">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/basket.png" alt="Basket" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>BASKET</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4" id="eskul-volly">
-                                <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                                    <img src="galeri/volly.jpeg" alt="Volly" width="150" height="150" />
-                                    <div class="card-body border-0">
-                                        <h4>VOLLY</h4>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <?php endforeach; ?>
                         </div>
+
                     </div>
                 </div>
             </div>

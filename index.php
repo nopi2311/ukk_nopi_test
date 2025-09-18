@@ -8,35 +8,65 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>SMKN 4 Tasikmalaya</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <style>
+    .carousel-item {
+      height: 100vh;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+    }
 
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 900;
+      text-align: center;
+      animation: fadeUp 4s ease-in-out infinite;
+    }
+
+    @keyframes fadeUp {
+      0% {
+        opacity: 0;
+        transform: translate(-50%, -30%);
+      }
+
+      30%,
+      60% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+
+      100% {
+        opacity: 0;
+        transform: translate(-50%, -70%);
+      }
+    }
+  </style>
+</head>
 
 <body>
   <?php include 'navbar.php'; ?>
-  <!-- SECTION CAROSEL -->
-  <section>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="galeri/gerbanngg.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="galeri/smk4.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="galeri/skm4.jpg" class="d-block w-100" alt="...">
-        </div>
+
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+
+      <div class="carousel-item active" style="background-image:url('galeri/gerbanngg.png');">
+        <div class="overlay"></div>
+        <div class="hero-text">Selamat Datang Di Website SMKN 4 Tasikmalaya</div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-  </section>
-  <!-- TUTUP CAROSEL -->
+  </div>
 
   <!-- SECTION STATISTIK -->
   <div class="container my-5">
@@ -159,7 +189,7 @@
           <img src="galeri/berita.JPG" class="card-img-top" alt="Berita 2">
           <div class="card-body">
             <p class="card-text-date mb-1">Juni 26, 2025</p>
-            <h5 class="card-title">Talkshow with U.S. Interns – English Club SMKN 4 Tasikmalaya 2025</h5>
+            <h5 class="card-title">Talkshow with U.S. Interns English Club SMKN 4 Tasikmalaya 2025</h5>
             <a href="Berita.php" class="btn-baca">Baca Selengkapnya →</a>
           </div>
         </div>
@@ -168,7 +198,7 @@
 
     <!-- Tombol Berita Lainnya -->
     <div class="text-center mt-5 ">
-      <button class="btn btn-primary">Berita Lainnya</button>
+      <a href="Berita.php" class="btn btn-primary">Berita Lainnya</a>
     </div>
   </div>
 

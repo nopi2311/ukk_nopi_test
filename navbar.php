@@ -17,14 +17,14 @@
                          data-bs-toggle="dropdown" aria-expanded="false">
                          Profill
                      </a>
-                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                         <li><a class="dropdown-item" href="identitas.php">Identitas Sekolah </a></li>
-                         <li><a class="dropdown-item" href="sejarah.php">Sejarah</a></li>
+                     <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                         <li><a class="dropdown-item text-white" href="identitas.php">Identitas Sekolah </a></li>
+                         <li><a class="dropdown-item text-white" href="sejarah.php">Sejarah</a></li>
                          <li>
                              <hr class="dropdown-divider">
                          </li>
-                         <li><a class="dropdown-item" href="Visi & Misi.php">Visi & Misi</a></li>
-                         <li><a class="dropdown-item" href="Keahlian.php">Konsentrasi Keahlian</a></li>
+                         <li><a class="dropdown-item text-white" href="Visi & Misi.php">Visi & Misi</a></li>
+                         <li><a class="dropdown-item text-white" href="Keahlian.php">Konsentrasi Keahlian</a></li>
                      </ul>
                  </li>
                  <li class="nav-item">
@@ -37,7 +37,7 @@
                      <a class="nav-link" href="Berita.php">Berita</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="data guru.php">Data guru</a>
+                     <a class="nav-link" href="data guru.php">Daftar guru</a>
                  </li>
              </ul>
          </div>

@@ -41,11 +41,11 @@
                         <a class="text-decoration-none text-white"
                             href="https://kemendikdasmen.go.id/">Kemendikbud</a>
                         <br>
-                        <a class="text-decoration-none text-white" href="#">Dapodiknasmen</a>
+                        <a class="text-decoration-none text-white" href="https://dapo.kemendikdasmen.go.id/">Dapodiknasmen</a>
                         <br>
-                        <a class="text-decoration-none text-white" href="#">PSMK</a>
+                        <a class="text-decoration-none text-white" href="https://psmk.jabarprov.go.id/">PSMK</a>
                         <br>
-                        <a class="text-decoration-none text-white" href="#">Disdik Jabar</a>
+                        <a class="text-decoration-none text-white" href="https://disdik.jabarprov.go.id/">Disdik Jabar</a>
                     </div>
                 </div>
             </div>

@@ -39,7 +39,7 @@
                     <img src="galeri/berita.JPG" class="card-img-top" alt="Berita 2">
                     <div class="card-body">
                         <p class="card-text-date mb-1">Juni 26, 2025</p>
-                        <h5 class="card-title">Talkshow with U.S. Interns – English Club SMKN 4 Tasikmalaya 2025</h5>
+                        <h5 class="card-title">Talkshow with U.S. Interns English Club SMKN 4 Tasikmalaya 2025</h5>
                         <a href="" class="btn-baca">Baca Selengkapnya →</a>
                     </div>
                 </div>
